@@ -6,11 +6,11 @@
 git clone https://github.com/KKCrypto/react-proxy-to-backend-server-with-cors.git
 
 // Run the API
-cd api
-npm install
+cd api -
+npm install -
 npm run dev
 
 // Run the React UI
-cd todo-app
-npm install
+cd my-app -
+npm install -
 npm start
