@@ -20,7 +20,6 @@ const isLocalhost = Boolean(
     )
 );
 
-console.log('Hay from serviceWorker.js')
 
 export function register(config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
@@ -141,5 +140,3 @@ export function unregister() {
       });
   }
 }
-
-console.log('END of the line - from serviceWorker.js')
