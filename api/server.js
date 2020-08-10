@@ -10,7 +10,7 @@ const app = express(),
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../my-app/build')));
-
+app.use(cors())
 
 app.get('/api/getExchangeInfo', (req, res) => {
   requestProm({
