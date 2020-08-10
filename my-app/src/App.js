@@ -7,9 +7,8 @@ const App = () => {
   const [state, setState] = useState([])
 
 	useEffect(() => {
-    fetchItem()
-
-  }, [])
+    		fetchItem()
+  	}, [])
   
   const fetchItem = async () => {
     const fetchItem = await fetch('/api/getExchangeInfo')
